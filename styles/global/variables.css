@@ -1,0 +1,29 @@
+:root {
+   --color-white: rgb(246, 246, 246);
+   --color-light-grey: rgb(235, 235, 235);
+   --color-grey: rgb(205, 205, 205);
+   --color-dark-grey: rgb(135, 135, 135);
+   --color-black: rgb(45, 45, 45);
+
+   --font-size-small: 15px;
+   --font-size-medium: 20px;
+   --font-size-large: 35px;
+
+   --transition-default: 0.2s;
+   --transition-increased: 0.35s;
+   --transition-slow: 0.5s;
+
+   --border-width-default: 1px;
+   --border-width-thick: 2px;
+
+   --border-radius-default: 10px;
+   --border-radius-increased: 15px;
+
+   --font-size-decreased: 14px;
+   --font-size-default: 16px;
+}
+
+._hide {
+   display: none;
+   overflow: hidden;
+ }

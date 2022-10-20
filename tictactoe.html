@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Крестики-нолики</title>
+
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="styles/global/reset.css">
+      <link rel="stylesheet" href="styles/global/variables.css">
+
+      <link rel="stylesheet" href="styles/main/header/header.css">
+
+      <link rel="stylesheet" href="styles/main/games/tic-tac-toe/tictactoe.css">
+      <link rel="stylesheet" href="styles/main/games/tic-tac-toe/tictactoe-modal.css">
+
+      <link rel="stylesheet" href="styles/global/global.css">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+   </head>
+   <body>
+      <header class="header">
+         <h1 class="header-title">
+            <a href="index.html" class="header-anchor">
+               На главную
+            </a>
+         </h1>
+         <span class="header-subtitle">
+            Выбрать другую игру
+         </span>
+      </header>
+
+      <main class="tictactoe-main">
+         <h2 class="game-status _text-center"></h2>
+         <div class="gamefield _hide _align-center">
+            <span class="cell cell-1 _text-center"></span>
+            <span class="cell cell-2 _text-center"></span>
+            <span class="cell cell-3 _text-center"></span>
+            <span class="cell cell-4 _text-center"></span>
+            <span class="cell cell-5 _text-center"></span>
+            <span class="cell cell-6 _text-center"></span>
+            <span class="cell cell-7 _text-center"></span>
+            <span class="cell cell-8 _text-center"></span>
+            <span class="cell cell-9 _text-center"></span>
+         </div>
+         <span class="button-play-again _text-center _pointer _transition-default">
+            Играть снова
+         </span>
+      </main>
+
+      <div class="modal-options _text-center">
+         <h2 class="modal-title">
+            Чем будем играть?
+         </h2>
+
+         <img class="options-game-logo" src="images/xo/xo-options.jpg" alt="Лого игры крестики-нолики">
+         <form action="" class="modal-choosing-side">
+            <input id="side_x" type="radio" name="side" value="x" checked> Крестиком
+            <input id="side_o" type="radio" name="side" value="0"> Ноликом
+         </form>
+
+         <span class="button-start _pointer _transition-default">
+            Начать
+         </span>
+      </div>
+      
+      <script src="JS/tictactoe/tictactoe.js"></script>
+   </body>
+</html>

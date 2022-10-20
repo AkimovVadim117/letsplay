@@ -1,0 +1,53 @@
+.rps-main {
+   justify-content: center;
+   height: 50%;
+}
+
+.start-button {
+   font-size: 35px;
+   font-weight: 100;
+}
+
+.game-status,
+.game-result {
+   display: none;
+}
+
+.button-play-again {
+   display: none;
+   width: fit-content;
+   padding: 15px 25px;
+
+   color: var(--color-black);
+   border: var(--border-width-thick) solid transparent;
+   border-radius: var(--border-radius-default);
+   background-color: var(--color-white);
+}
+
+.button-play-again:hover {
+   color: var(--color-dark-grey);
+   border-color: var(--color-white);
+   background-color: transparent;
+}
+
+.game-result {
+   padding: 15px 0;
+}
+
+.step-item-list {
+   display: none;
+   justify-content: space-between;
+   width: calc(250px + 250px + 250px + 50px + 50px); /* rock + scissors + paper + margin-right + margin-right*/
+   height: 250px; /* height card*/
+}
+
+.item-image {
+   width: 250px;
+   height: 250px;
+
+   background-size: cover;
+}
+
+.item-title {
+   margin-top: 15px;
+}

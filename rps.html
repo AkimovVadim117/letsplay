@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Камень-ножницы-бумага</title>
+
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="styles/global/reset.css">
+      <link rel="stylesheet" href="styles/global/variables.css">
+
+      <link rel="stylesheet" href="styles/main/header/header.css">
+      
+      <link rel="stylesheet" href="styles/main/games/rps/rps.css">
+      <link rel="stylesheet" href="styles/main/games/rps/rps-gamefield.css">
+      <link rel="stylesheet" href="styles/main/games/rps/rps-modal.css">
+
+      <link rel="stylesheet" href="styles/global/global.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+   </head>
+   <body>
+      <header class="header">
+         <h1 class="header-title">
+            <a href="index.html" class="header-anchor">
+               На главную
+            </a>
+         </h1>
+         <span class="header-subtitle">
+            Выбрать другую игру
+         </span>
+      </header>
+
+      <main class="rps-main _flex _align-center _text-center _column">
+         <span class="start-button">
+            Начать игру
+         </span>
+
+         <h2 class="game-status _text-center"></h2>
+         <p class="game-result _text-center"></p>
+
+         <ul class="step-item-list">
+            <li class="item item-rock _flex _align-center _column">
+               <img src="images/rps/rps-items/rock.png" alt="Иконка выбора действия в игре (Камень)" class="item-image">
+               <h3 class="item-title _pointer">Камень</h3>
+            </li>
+            <li class="item item-scissors _flex _align-center _column">
+               <img src="images/rps/rps-items/scissors.png" alt="Иконка выбора действия в игре (Ножницы)" class="item-image">
+               <h3 class="item-title _pointer">Ножницы</h3>
+            </li>
+            <li class="item item-paper _flex _align-center _column">
+               <img src="images/rps/rps-items/document.png" alt="Иконка выбора действия в игре (Бумага)" class="item-image">
+               <h3 class="item-title _pointer">Бумага</h3>
+            </li>
+         </ul>
+
+         <span class="button-play-again _text-center _pointer _transition-default">
+            Играть снова
+         </span>
+      </main>
+
+      <script src="JS/rps/rps.js"></script>
+   </body>
+</html>

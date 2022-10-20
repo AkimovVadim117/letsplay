@@ -1,0 +1,32 @@
+.modal-options {
+   margin: 0 auto;
+   right: calc(50% - 250px / 2);
+   width: 250px;
+   padding: 15px;
+
+   border: 1px solid var(--color-grey);
+   border-radius: var(--border-radius-increased);
+}
+
+.modal-subtitle {
+   margin: 3px 0 20px 0;
+
+   font-size: 10px;
+}
+
+.button-start {
+   padding: 5px 10px;
+
+   border-radius: var(--border-radius-default);
+   background-color: var(--color-light-grey);
+}
+
+.button-start:hover {
+   background-color: var(--color-grey);
+}
+
+.options-game-logo {
+   width: 150px;
+
+   background-size: cover;
+}

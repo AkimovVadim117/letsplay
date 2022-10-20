@@ -1,0 +1,12 @@
+.header {
+   padding: 15px 15px 25px 15px;
+
+   border-bottom: var(--border-width-default) solid var(--color-grey);
+}
+
+.header-subtitle {
+   display: block;
+   margin-top: 5px;
+
+   font-size: var(--font-size-decreased);
+}

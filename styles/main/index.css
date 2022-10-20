@@ -1,0 +1,82 @@
+.main {
+   margin-top: 150px;
+}
+
+.game-list {
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.game-card {
+   width: 300px;
+
+   perspective: 1500px;
+}
+
+.game-card:not(:last-child) {
+   margin-right: 25px;
+}
+
+.game-card-title {
+   border-top: var(--border-width-default) solid var(--color-black);
+   padding: 15px 0;
+}
+
+.game-card-image {
+   width: 250px;
+
+   border-radius: var(--border-radius-increased);
+   background-size: cover;
+   background-position: center;
+}
+
+.game-card-button-play {
+   display: block;
+   margin-top: 15px;
+   padding: 15px 25px;
+
+   font-size: var(--font-size-default);
+   color: var(--color-dark-grey);
+   background-color: var(--color-grey);
+   border-top: var(--border-width-thick) solid var(--color-grey);
+   border-bottom-right-radius: var(--border-radius-increased);
+   border-bottom-left-radius: var(--border-radius-increased);
+}
+
+.game-card-front,
+.game-card-description {
+   position: absolute;
+   height: auto;
+   
+   border: var(--border-width-thick) solid var(--color-dark-grey);
+   border-radius: var(--border-radius-increased);
+   backface-visibility: hidden;
+   cursor: default;
+}
+
+.game-card-description {
+   transform: rotateY(180deg);
+}  
+
+.game-card:hover .game-card-front {
+   transform: rotateY(180deg);
+}
+
+.game-card:hover .game-card-description {
+   transform: rotateY(360deg);
+   box-shadow: 5px 5px 15px #00000050;
+}
+
+.game-description-title {
+   padding: 15px 0;
+}
+
+.game-description-text {
+   text-align: justify;
+   padding: 15px;
+}
+
+.game-card-button-play:hover {
+   background-color: transparent;
+   color: var(--color-grey);
+}

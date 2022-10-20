@@ -1,0 +1,46 @@
+.modal-options {
+   position: absolute;
+   right: calc(50% - 400px / 2);
+   width: 400px;
+   padding: 5px 20px 13px 20px;
+   background: var(--color-light-grey);
+   border-radius: var(--border-radius-default);
+
+   z-index: 999;
+}
+
+.modal-title {
+   margin-bottom: 15px;
+
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.option {
+   justify-content: space-between;
+   padding-bottom: 5px;
+}
+
+.option:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.gameover-modal {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   padding: 15px 25px;
+
+   color: var(--color-white);
+   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.gameover-modal p:nth-child(n+2) {
+   margin-bottom: 10px;
+}
+
+.gameover-title {
+   font-size: 20px;
+}

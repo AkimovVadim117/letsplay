@@ -1,0 +1,56 @@
+body {
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+h1 {
+   font-size: 48px;
+   font-weight: 600;
+}
+
+h2 {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+._flex {
+   display: flex;
+}
+
+._align-center {
+   align-items: center;
+}
+
+._transition-slow {
+   transition: var(--transition-slow);
+   -o-transition: var(--transition-slow);
+   -ms-transition: var(--transition-slow);
+   -moz-transition: var(--transition-slow);
+   -webkit-transition: var(--transition-slow);
+}
+._transition-increased {
+   transition: var(--transition-increased);
+   -o-transition: var(--transition-increased);
+   -ms-transition: var(--transition-increased);
+   -moz-transition: var(--transition-increased);
+   -webkit-transition: var(--transition-increased);
+}
+._transition-default {
+   transition: var(--transition-default);
+   -o-transition: var(--transition-default);
+   -ms-transition: var(--transition-default);
+   -moz-transition: var(--transition-default);
+   -webkit-transition: var(--transition-default);
+}
+
+._text-center {
+   text-align: center;
+}
+
+._column {
+   flex-direction: column;
+}
+
+._pointer {
+   cursor: pointer;
+}

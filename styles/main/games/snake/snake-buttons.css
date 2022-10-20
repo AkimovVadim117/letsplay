@@ -1,0 +1,27 @@
+.options-button,
+.start-button,
+.gameover-button {
+   padding: 5px 15px;
+   background-color: var(--color-grey);
+   cursor: pointer;
+   color: var(--color-black);
+   border-radius: var(--border-radius-increased);
+}
+
+.gameover-button {
+   position: absolute;
+   display: block;
+   bottom: 15px;
+   left: 30%;
+
+   opacity: 0.75;
+}
+
+.options-button:hover,
+.gameover-button:hover {
+   background-color: var(--color-light-grey);
+}
+
+.start-button:hover {
+   background-color: var(--color-white);
+}

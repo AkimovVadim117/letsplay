@@ -1,0 +1,43 @@
+.tictactoe-main {
+   margin-top: 150px;
+}
+
+.gamefield {
+   display: none;
+   flex-wrap: wrap;
+   width: 350px;
+   margin: 25px auto 0 auto;
+}
+
+.button-start {
+   display: block;
+   margin-top: 15px;
+}
+
+.cell {
+   display: block;
+   width: 100px;
+   height: 100px;
+   margin: 3px;
+   padding-top: calc((100px - 72px) / 2);
+
+   font-size: 72px;
+   font-weight: 100;
+   border: var(--border-width-default) solid var(--color-dark-grey);
+   box-shadow: 7px 7px 7px var(--color-grey);
+}
+
+.button-play-again {
+   display: none;
+   margin: 15px auto 0 auto;
+   padding: 15px 25px;
+   width: fit-content;
+
+   border: var(--border-width-default) solid var(--color-black);
+}
+
+.button-play-again:hover {
+   background-color: var(--color-grey);
+   color: var(--color-white);
+   border: 0;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Игры</title>
+      
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="styles/global/reset.css">
+      <link rel="stylesheet" href="styles/global/variables.css">
+      
+      <link rel="stylesheet" href="styles/main/header/header.css">
+      
+      <link rel="stylesheet" href="styles/main/index.css">
+      
+      <link rel="stylesheet" href="styles/global/global.css">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+   </head>
+   <body>
+      <header class="header">
+         <h1 class="header-title">
+            Поиграем?
+         </h1>
+         <span class="header-subtitle">
+            Выберите одну игру и сыграйте в неё
+         </span>
+      </header>
+
+      <main class="main">
+         <ul class="game-list _flex _align-center">
+            <li class="game-card _relative _transition-slow">
+               <div class="game-card-front _text-center _transition-slow">
+                  <img class="game-card-image" src="images/snake-logo.jpg" alt="Иконка игры (Змейка)">
+                  <h2 class="game-card-title">
+                     Змейка
+                  </h2>
+               </div>
+               
+               <div class="game-card-description _text-center _transition-slow">
+                  <h2 class="game-description-title">
+                     Змейка
+                  </h2>
+                  <p class="game-description-text">
+                     Змейка - игра, в которой Вам предстоит сыграть за червя на поле.
+                     Ваша цель - съесть как можно больше яблок и не попасть на свой хвост или за края карты.
+                     <br><br>
+                     Управлять змейкой можно либо WASD, либо стрелочками.
+                  </p>
+                  <a class="game-card-button-play _transition-default" href="snake.html">
+                     Играть
+                  </a>
+               </div>
+            </li>
+            <li class="game-card _relative _transition-slow">
+               <div class="game-card-front _text-center _transition-slow">
+                  <img src="images/xo/xo-logo.png" alt="Иконка игры (Змейка)" class="game-card-image">
+                  <h2 class="game-card-title">
+                     Крестики-нолики
+                  </h2>
+               </div>
+               
+               <div class="game-card-description _text-center _transition-slow">
+                  <h2 class="game-description-title">
+                     Крестики-нолики
+                  </h2>
+                  <p class="game-description-text">
+                     В этой логической игре нужно будет сразиться с ботом на квадратном поле 3х3 клетки.
+                     Один игрок ходит крестиком Х, второй - ноликом 0.
+                     <br><br>
+                     Три в ряд или по диагонали крестика/нолика - победа.
+                     Если нет ходов, то ничья.
+                  </p>
+                  <a class="game-card-button-play _transition-default" href="tictactoe.html">
+                     Играть
+                  </a>
+               </div>
+            </li>
+            <li class="game-card _relative _transition-slow">
+               <div class="game-card-front _text-center _transition-slow">
+                  <img src="images/rps/RPS.png" alt="Иконка игры (Змейка)" class="game-card-image">
+                  <h2 class="game-card-title">
+                     Камень-ножницы-бумага
+                  </h2>
+               </div>
+               
+               <div class="game-card-description _text-center _transition-slow">
+                  <h2 class="game-description-title">
+                     Камень-ножницы-бумага
+                  </h2>
+                  <p class="game-description-text">
+                     Популярная игра на руках, но тут - на экране :)<br>
+                     Вы сразитесь с ботом. Выбирайте ход: камень, ножницы либо бумага.
+                     Бот выбирает из того же списка.
+                     <br><br>
+                     Камень бьет ножницы,<br>
+                     ножницы бьют бумагу,<br>
+                     бумага бьет камень.
+                  </p>
+                  <a class="game-card-button-play _transition-default" href="rps.html">
+                     Играть
+                  </a>
+               </div>
+            </li>
+         </ul>
+      </main>
+   </body>
+</html>

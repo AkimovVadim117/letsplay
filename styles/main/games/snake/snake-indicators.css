@@ -1,0 +1,24 @@
+.game-indicator-timer,
+.game-indicator-apples {
+   position: absolute;
+   padding-top: 3px;
+   top: 0;
+   right: 0;
+   width: 75px;
+   height: 25px;
+
+   color: var(--color-white);
+   border-bottom: var(--border-width-thick) solid var(--color-black);
+   border-left: var(--border-width-default) solid var(--color-black);
+   border-bottom-left-radius: 25px;
+   background-color: rgba(22, 144, 13, 0.644);
+}
+
+.game-indicator-apples {
+   left: 0;
+   
+   border-right: var(--border-width-default) solid var(--color-black);
+   border-left: none;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 25px;
+}
